@@ -79,6 +79,7 @@ ll
 ```
 
 -   Shows you the contents of the folder/directory you’re currently in
+-   Alias/shortcut for **ls -l**, ll is easier!
 
 ``` bash
 ll ../
@@ -341,6 +342,12 @@ mv [file/script] [new name/new location pathway]
 ### Other Useful Commands
 
 <br>
+
+``` bash
+[command/alias] --help
+```
+
+-   Shows you the help/instructions page for that command i.e. *grep --help*, *iqtree -help*, etc
 
 ``` bash
 myquota
