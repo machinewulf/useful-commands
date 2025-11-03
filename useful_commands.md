@@ -1,15 +1,15 @@
 ------------------------------------------------------------------------
 
-### General & Useful Commands for Terminal
+## General & Useful Commands for Terminal
 
 #### Primarily made for Bioinformatics Bootcamp 2025
 
--   This is based on a personal file of mine, so apologies for the odd
+-   This is based on a personal file of mine, so apologies for odd
     formatting!
 
 <br>
 
-#### Hopefully, you find some of these useful! p.s. I do not take responsibility for any laptop explosions and whatnot lol
+#### Hopefully you find some of these useful! p.s. I do not take responsibility for any laptop explosions and whatnot lol
 
 <br>
 
@@ -23,7 +23,7 @@ brought up below!
 | Command | Meaning                 | Easier                                     |
 |---------|-------------------------|--------------------------------------------|
 | cd      | change directory        | change directory/folder                    |
-| pwd     | print working directory | current directory/folder pathway           |
+| pwd     | print working directory | current directory/folder                   |
 | mv      | move/rename             | move/rename to \[new pathway/name\]        |
 | rm      | remove                  | delete                                     |
 | ll      | long list               | shows contents of current directory/folder |
@@ -122,7 +122,7 @@ ll ./[shared file start name]*/
 ll- h
 ```
 
--   Shows you the contents of a folder/directory using Gb and Mb etc
+-   Shows you the contents of a folder/directory using Gb and Mb, etc
 
 <br>
 
@@ -159,7 +159,7 @@ vim [file/script]
 :w
 ```
 
--   In file/script editor: “writes” your changes on slurm script, aka
+-   In file/script editor: “writes” your changes on the slurm script, aka
     saves your changes
 -   Have to exit editing mode first, via ESC
 
@@ -195,7 +195,7 @@ cat [file/script]
 ```
 
 -   View contents of a whole file/script regardless of size, loads up
-    the whole thing opens IN THE COMMAND LINE
+    the whole thing, opens IN THE COMMAND LINE
 -   Don’t do this with massive files, you will regret it lol
 
 ``` bash
@@ -233,7 +233,7 @@ squeue -u b.[hawk username] --start
 ```
 
 -   Shows you the predicted start time for submitted/waiting jobs in the
-    scw queue, keep in mind it's not very accurate
+    scw queue keep in mind it's not very accurate
 
 ``` bash
 scancel [job id/number]
@@ -246,7 +246,7 @@ scancel [job id/number]
 seff [job id/number]
 ```
 
--   Shows you the job details/stats, i.e. how long it took, CPU usage,
+-   Shows you the job details/stats i.e. how long it took, CPU usage,
     etc for a completed job
 
 <br>
@@ -332,7 +332,8 @@ myquota
 history
 ```
 
--   Shows you your last 500 entries in the command line. This will open in the command line (as opposed to a file)
+-   Shows you your last 500 entries in the command line, this will open
+    in the command line (as opposed to a file)
 
 ``` bash
 history | grep "[text]"
@@ -345,8 +346,6 @@ history | grep "[text]"
 
 ### More Specific Script-Related Commands
 
-<br>
-
 ``` bash
 cut -c1-[100] [alignment file]
 ```
@@ -357,7 +356,7 @@ cut -c1-[100] [alignment file]
 module avail [module/program name]
 ```
 
--   Shows available modules/versions, i.e. module avail cons = what
+-   Shows available modules/versions i.e. module avail cons = what
     consensify modules/versions are there
 
 ``` bash
@@ -372,13 +371,13 @@ module purge
 
 -   Clears all modules
 -   Doesn’t always work, especially if you’re source activating
-    environments, etc - this won’t clear those
+    environments etc - this won’t clear those
 
-<br> <br>
+<br>
 
 #### Hopefully you’ve found some of these helpful! Let me know if I can reword anything for future readers! :)
 
-p.s. If you found any spelling mistakes, let me know! Grammarly does not
+p.s. if you found any spelling mistakes, let me know! grammarly does not
 work on Rmd lol
 
 <br>
