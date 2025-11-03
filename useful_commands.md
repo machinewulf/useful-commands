@@ -195,7 +195,7 @@ cat [file/script]
 ```
 
 -   View contents of a whole file/script regardless of size, loads up
-    the whole thing, opens IN THE COMMAND LINE
+    the whole thing, opens **in the command line**
 -   Don’t do this with massive files, you will regret it lol
 
 ``` bash
