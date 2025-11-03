@@ -231,6 +231,19 @@ wc -c [file/script]
 -   Counts the characters in a file
 
 
+``` bash
+uniq [file/script]
+```
+
+-   Deletes repeated lines in a file
+
+
+``` bash
+uniq -c [file/script]
+```
+
+-   Remove duplicates, leaving only the unique things in the file
+
 <br>
 
 ### Submitting Scripts
