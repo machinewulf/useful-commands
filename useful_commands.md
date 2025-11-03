@@ -376,6 +376,30 @@ history | grep "[text]"
 -   Shows you your last 500 entries in the command line, containing
     \[text\], this will open in the command line (as opposed to a file)
 
+``` bash
+wget [.fasta.gz file URL]
+```
+
+-   Downloads file from the internet
+-   i.e. to download this alligator's info: *wget https://dnazoo.s3.wasabisys.com/Alligator_mississippiensis/ASM28112v4_HiC.fasta.gz*
+
+
+``` bash
+zcat [.fasta.gz file] | less
+```
+
+-   View contents of a gzip file without unzipping
+-   i.e. with the alligator from above, again: *zcat ASM28112v4_HiC.fasta.gz | less*
+
+
+``` bash
+gunzip [.fasta.gz file]
+```
+
+-   Unzip/uncompress the contents of a gzip file
+-   i.e. with the alligator from above, again: *gunzip ASM28112v4_HiC.fasta.gz*
+-   You can compress with the command gzip
+
 <br>
 
 ### More Specific Script-Related Commands
